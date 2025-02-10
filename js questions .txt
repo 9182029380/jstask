@@ -1,0 +1,80 @@
+
+
+ Functions & ES6 Features**  
+ Create a function `calculateTravelCost()` that takes the distance in km and transport mode (`"car"`, `"bus"`, or `"flight"`) and returns the estimated cost. Use ES6 arrow functions and default parameters.  
+
+
+
+ Template Literals & String Manipulation**  
+ Develop a function that generates a travel itinerary string using template literals. It should accept the destination, duration, and cost and return a well-formatted itinerary message.  
+
+
+
+ Array Methods (Map, Filter, Reduce)**  
+ Given an array of flight prices, implement functions to:  
+- Filter flights that cost less than a given budget.  
+- Use `.map()` to convert prices from one currency to another.  
+- Use `.reduce()` to calculate the total cost of selected flights.  
+
+ Object Destructuring & Spread Operator**  
+ Create an object representing a travel booking with fields like `destination`, `travelerName`, `cost`, and `date`. Implement a function to update the cost using the spread operator and return the updated object.  
+
+ Promises & Async/Await**  
+ Simulate a travel booking API using Promises. The function `bookFlight()` should resolve after 3 seconds if the flight is available, otherwise reject with an error message.  
+
+
+
+ Fetch API & Async/Await**  
+ Write a function that fetches real-time weather data for a given city using the OpenWeather API. Use `fetch()` with `async/await` and handle errors properly.  
+
+ Callback Functions**  
+ Implement a function `getHotelDetails()` that takes a hotel name and a callback function. The callback should receive either the hotel details or an error message if the hotel is not found.  
+
+
+
+ Closures**  
+Implement a closure function `createTravelBudget(initialAmount)` that maintains and updates the budget as the traveler books hotels, flights, and activities.  
+
+ Higher-Order Functions**  
+ Implement a function `filterTrips()` that takes an array of trip objects and a filtering function (e.g., budget trips, luxury trips). The function should return trips matching the criteria.  
+
+
+
+LocalStorage & SessionStorage**  
+ Build a simple travel wishlist app where users can save and retrieve favorite destinations using `localStorage`.  
+
+ Modules & Import/Export**  
+ Create separate JavaScript modules:  
+- `flights.js` containing a function to fetch flight data.  
+- `hotels.js` containing a function to fetch hotel details.  
+- Import and use these modules in `main.js`.  
+
+ Classes & Inheritance**  
+ Implement a `Transport` class with properties like `mode`, `costPerKm`, and `calculateFare()`. Extend it into subclasses `Bus`, `Car`, and `Flight`, overriding the `calculateFare()` method accordingly.  
+
+Event Handling & DOM Manipulation**  
+ Create a travel booking form with fields for destination, date, and number of travelers. Use JavaScript to validate inputs and display an error message if any field is empty.  
+
+ Set & Map**  
+ Implement a system that tracks unique travelers using a `Set` and maps each traveler’s ID to their booking details using a `Map`.  
+
+ Generators**  
+ Implement a travel itinerary generator using a generator function. Each call to `next()` should return the next stop in the itinerary.  
+
+ Error Handling & Try/Catch**  
+Write a function `bookHotel()` that throws an error if the hotel is fully booked. Use `try/catch` to handle errors gracefully.  
+
+Debouncing & Throttling**  
+ Implement a search bar for flight bookings that uses a debounce function to delay the API call until the user stops typing for 500ms.  
+
+ WebSockets**  
+ Simulate a live flight status tracker using WebSockets. The function should update flight status dynamically when a change is detected.  
+
+ Geolocation API**  
+ Build a function that gets the user's current location using the Geolocation API and suggests nearby tourist attractions.  
+
+ Intersection Observer API**  
+ Implement lazy loading for images in a travel website using the Intersection Observer API, ensuring images load only when they are about to be displayed.  
+
+
+
