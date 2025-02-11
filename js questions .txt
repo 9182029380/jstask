@@ -74,7 +74,12 @@ Debouncing & Throttling**
  Build a function that gets the user's current location using the Geolocation API and suggests nearby tourist attractions.  
 
  Intersection Observer API**  
- Implement lazy loading for images in a travel website using the Intersection Observer API, ensuring images load only when they are about to be displayed.  
+ Implement lazy loading for images in a travel website using the Intersection Observer API,
+  ensuring images load only when they are about to be displayed.  
+
+
+  ✅ Booking Confirmed for ${passengerName} to ${destination}
+  ❌ Booking Failed: ${error.message}
 
 
 
