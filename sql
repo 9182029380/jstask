@@ -32,6 +32,60 @@ CREATE TABLE Salaries (
 );
 ```
 ---
+-- Inserting Departments
+INSERT INTO Departments (DeptID, DeptName) VALUES
+(1, 'HR'),
+(2, 'IT'),
+(3, 'Finance'),
+(4, 'Marketing'),
+(5, 'Operations');
+
+-- Inserting Employees
+INSERT INTO Employees (EmpID, EmpName, DeptID, HireDate) VALUES
+(101, 'Alice Johnson', 2, '2018-06-12'),
+(102, 'Robert Smith', 3, '2019-08-21'),
+(103, 'Emma Davis', 1, '2017-03-05'),
+(104, 'Michael Brown', NULL, '2020-11-15'),
+(105, 'Olivia Wilson', 5, '2021-04-23'),
+(106, 'James Taylor', 2, '2016-12-30'),
+(107, 'Sophia Moore', 4, '2019-07-19'),
+(108, 'Benjamin Anderson', 3, '2018-09-11'),
+(109, 'William Thomas', NULL, '2022-02-01'),
+(110, 'Charlotte White', 1, '2020-01-10'),
+(111, 'Daniel Harris', 2, '2015-05-22'),
+(112, 'Ethan Martin', 4, '2016-08-09'),
+(113, 'Mia Robinson', 5, '2023-05-14'),
+(114, 'Harper Clark', 3, '2017-12-25'),
+(115, 'Henry Lewis', 1, '2021-06-30'),
+(116, 'Amelia Walker', 2, '2022-09-27'),
+(117, 'Lucas Hall', 4, '2018-11-18'),
+(118, 'Isabella Allen', NULL, '2019-03-02'),
+(119, 'Alexander Young', 5, '2020-07-29'),
+(120, 'Evelyn Scott', 3, '2018-02-14');
+
+-- Inserting Salaries
+INSERT INTO Salaries (SalaryID, EmpID, SalaryAmount, Bonus, SalaryDate) VALUES
+(201, 101, 70000.00, 5000.00, '2023-12-01'),
+(202, 102, 80000.00, 7500.00, '2023-11-15'),
+(203, 103, 65000.00, 4000.00, '2023-10-10'),
+(204, 105, 55000.00, 3500.00, '2023-09-05'),
+(205, 107, 72000.00, 6000.00, '2023-08-20'),
+(206, 109, NULL, NULL, NULL),  -- No salary assigned
+(207, 110, 68000.00, 4500.00, '2023-07-30'),
+(208, 112, 62000.00, 4200.00, '2023-06-14'),
+(209, 114, 75000.00, 5000.00, '2023-05-29'),
+(210, 115, 56000.00, 3000.00, '2023-04-10'),
+(211, 116, 71000.00, 5800.00, '2023-03-18'),
+(212, 118, NULL, NULL, NULL),  -- No salary assigned
+(213, 119, 69000.00, 4700.00, '2023-02-25'),
+(214, 120, 73000.00, 5500.00, '2023-01-08'),
+(215, 104, NULL, NULL, NULL),  -- No salary assigned
+(216, 106, 81000.00, 8200.00, '2023-10-22'),
+(217, 108, 77000.00, 7300.00, '2023-11-06'),
+(218, 111, 86000.00, 9000.00, '2023-12-15'),
+(219, 113, 52000.00, 2700.00, '2023-08-03'),
+(220, 117, 78000.00, 6000.00, '2023-07-19');
+
 
 ### **SQL Questions**
 
