@@ -20,6 +20,7 @@ For a banking application, the test strategy might specify:
 
 ## 2. Test Plan
 A test plan is a detailed document specific to a project or release that outlines:
+sorsd
 
 - Features to be tested
 - Testing schedule and timeline
